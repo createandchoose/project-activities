@@ -1,17 +1,12 @@
 # Проектная деятельность
 
-# PYTHON VENV (виртальное окружение venv) 📦
-py -m venv venv                         | создание venv
-venv\Scripts\activate                   | вход в venv
-
-# PYTHON Запуск Backend 🚀
+PYTHON Запуск
 py main.py
 
-# PYTHON Зависимости requirements.txt 📝
-pip install -r requirements.txt         | установка requirements.txt
-pip freeze > requirements.txt           | создание requirements.txt
+PYTHON VENV
+py -m venv venv
+venv\Scripts\activate
 
-# venv\Scripts\activate если не работает
-Открыть PowerShell от имени администратора.
-Set-ExecutionPolicy RemoteSigned
-
+PYTHON Зависимости requirements.txt 📝
+pip install -r requirements.txt
+pip freeze > requirements.txt          
