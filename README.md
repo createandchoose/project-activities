@@ -1,12 +1,21 @@
 # Проектная деятельность
 
-# PYTHON Запуск
+###### PYTHON Запуск
+
+```
 py main.py
-
-# PYTHON VENV
+```
+######  PYTHON VENV
+```
 py -m venv venv
+```
+```
 venv\Scripts\activate
-
-# PYTHON Зависимости
+```
+######  PYTHON Зависимости
+```
 pip install -r requirements.txt
-pip freeze > requirements.txt          
+```
+```
+pip freeze > requirements.txt
+``
